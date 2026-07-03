@@ -74,7 +74,7 @@ export default function TenantProfile() {
             <input className={inputClass} value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} required />
           </Field>
           <Field label="No KTP">
-            <input className={inputClass} value={form.ktp} onChange={(e) => setForm({ ...form, ktp: e.target.value })} />
+            <input className={inputClass} value={form.ktp} disabled />
           </Field>
           <Field label="No HP">
             <input className={inputClass} value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} />
